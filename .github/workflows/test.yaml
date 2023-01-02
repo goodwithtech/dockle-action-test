@@ -1,9 +1,6 @@
 name: "test"
 on:
   workflow_dispatch:
-env:
-  TRIVY_VERSION: 0.34.0
-  BATS_LIB_PATH: '/usr/lib/'
 jobs:
   build:
     name: Build
