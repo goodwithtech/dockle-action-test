@@ -20,3 +20,9 @@ jobs:
           exit-code: '0'
           exit-level: 'warn'
           ignore: 'CIS-DI-0001,DKL-DI-0006'
+      - name: Upload Report
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+        name: Report
+        path: result.json
