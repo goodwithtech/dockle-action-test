@@ -17,7 +17,7 @@ jobs:
           image: 'built-image:scan'
           format: 'json'
           output: 'result.json'
-          exit-code: '0'
+          exit-code: '1'
           exit-level: 'warn'
           ignore: 'CIS-DI-0001,DKL-DI-0006,DKL-LI-0001'
           accept-file: 'credentials.json'
