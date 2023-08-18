@@ -24,5 +24,5 @@ jobs:
         uses: actions/upload-artifact@v3
         if: always()
         with:
-        name: Report
-        path: result.json
+          name: Report
+          path: result.json
