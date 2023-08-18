@@ -19,7 +19,8 @@ jobs:
           output: 'result.json'
           exit-code: '0'
           exit-level: 'warn'
-          ignore: 'CIS-DI-0001,DKL-DI-0006'
+          ignore: 'CIS-DI-0001,DKL-DI-0006,DKL-LI-0001'
+          accept-file: 'credentials.json'
       - name: Upload Report
         uses: actions/upload-artifact@v3
         if: always()
