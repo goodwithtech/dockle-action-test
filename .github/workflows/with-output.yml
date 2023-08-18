@@ -1,4 +1,4 @@
-name: "test"
+name: "with a output file"
 on:
   workflow_dispatch:
 jobs:
