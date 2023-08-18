@@ -1,4 +1,4 @@
-name: "simple test (list format)"
+name: "Output result to stdout (list format)"
 on:
   workflow_dispatch:
 jobs:

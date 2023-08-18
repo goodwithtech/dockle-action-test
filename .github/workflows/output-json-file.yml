@@ -1,4 +1,4 @@
-name: "with a output file"
+name: "upload a JSON report file"
 on:
   workflow_dispatch:
 jobs:
